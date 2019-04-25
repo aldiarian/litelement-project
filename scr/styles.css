@@ -1,0 +1,33 @@
+:root{
+    --color-uno: gold;
+    --color-dos: rgb(0, 102, 255);
+    --color-tres: rgb(76, 122, 64);
+    --color-cuatro: white;
+}
+.my-element{
+    --my-bg-color: var(--color-uno);
+}
+.my-element--especial{
+    --my-bg-color: var(--color-dos);
+    --my-color: var(--color-cuatro);
+}
+.row{
+    margin-bottom: 1rem;
+}
+
+my-input{
+    --my-input-padding: 1rem;
+    --my-input-borderWidth: 2px;
+    --my-input-borderType: solid;
+    --my-input-borderColor: black;
+    --my-input-borderRadius: 5px;
+    --my-input-backColor: white;
+}
+.my-input--one{
+    --my-input-borderColor: rgba(133, 1, 1, 0.945);
+    --my-input-backColor: rgb(255, 4, 4);
+}
+.my-input--two{
+    --my-input-borderColor: rgb(218, 70, 1);
+    --my-input-backColor: rgb(248, 166, 12);
+}

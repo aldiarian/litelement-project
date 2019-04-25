@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--                                                    -->
+    <!-- MUY IMPORTANTE LLAMAR A LOS JS CON EL TYPE MODULE  -->
+    <!--                                                    -->
+    <script src="./scr/components.js" type="module"></script>
+    <link rel="stylesheet" href="./scr/styles.css">
+</head>
+<body>
+    <h1>Prueba de LitElement</h1>
+    <div class="row">
+        <my-element class="my-element" myString="hola desde fuera"></my-element>
+        <my-element class="my-element my-element--especial" myString="hola desde fuera"></my-element>
+    </div>
+    <my-input placeholder="introduce texto"></my-input>
+    <my-input class="my-input--one" placeholder="introduce texto"></my-input>
+    <my-input class="my-input--two" placeholder="introduce texto"></my-input>
+</body>
+</html>
