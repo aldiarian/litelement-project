@@ -17,17 +17,19 @@
 
 my-input{
     --my-input-padding: 1rem;
-    --my-input-borderWidth: 2px;
+    --my-input-borderWidth: 1px;
     --my-input-borderType: solid;
     --my-input-borderColor: black;
-    --my-input-borderRadius: 5px;
-    --my-input-backColor: white;
+    --my-input-borderRadius: 6px;
 }
 .my-input--one{
     --my-input-borderColor: rgba(133, 1, 1, 0.945);
     --my-input-backColor: rgb(255, 4, 4);
+    --my-input-color: white;
+    --my-input-borderRadius: 12px;
 }
 .my-input--two{
     --my-input-borderColor: rgb(218, 70, 1);
     --my-input-backColor: rgb(248, 166, 12);
+    --my-input-borderRadius: 0px;
 }

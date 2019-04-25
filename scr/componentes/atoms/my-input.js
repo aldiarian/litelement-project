@@ -10,6 +10,10 @@ class MyInput extends LitElement {
             border: var( --my-input-borderWidth ) var( --my-input-borderType ) var( --my-input-borderColor );
             border-radius: var( --my-input-borderRadius );
             background-color: var( --my-input-backColor, white );
+            color: var( --my-input-color, black );
+        }
+        input::placeholder{
+            color: var( --my-input-color, black );
         }
         `;
     }
